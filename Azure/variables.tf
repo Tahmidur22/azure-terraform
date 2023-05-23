@@ -26,3 +26,8 @@ variable "database_name" {
   type        = string
   default     = "my-database"
 }
+
+variable "subnet_cidr" {
+  description = "Subnet CIDR block"
+  type        = string
+}
